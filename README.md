@@ -40,7 +40,6 @@ Below is the screenshot of official ubuntu base image which you can use for your
 To provide a better picture of files and folders that containers base images have and files and folders that containers use from host operating system (not 100 percent accurate -> varies from base image to base image). Refer below.
 
 
-
 ### Files and Folders in containers base images
 
 ```
@@ -250,7 +249,7 @@ This message shows that your installation appears to be working correctly.
 ### Clone this repository and move to example folder
 
 ```
-git clone https://github.com/iam-veeramalla/Docker-Zero-to-Hero
+git clone https://github.com/thotamohan95/dockerdemo
 cd  examples
 ```
 
@@ -262,7 +261,7 @@ docker login
 
 ```
 Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
-Username: abhishekf5
+Username: thotamohan23
 Password:
 WARNING! Your password will be stored unencrypted in /home/ubuntu/.docker/config.json.
 Configure a credential helper to remove this warning. See
@@ -306,7 +305,7 @@ Output of the above command
     Removing intermediate container 5d60ad3a59ff
      ---> 960d37536dcd
     Successfully built 960d37536dcd
-    Successfully tagged abhishekf5/my-first-docker-image:latest
+    Successfully tagged thotamohan95/my-first-docker-image:latest
 ```
 
 ### Verify Docker Image is created
